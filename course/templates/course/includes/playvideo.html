@@ -1,0 +1,6 @@
+{% load static %}
+<video width="500" autoplay id="{{lesson|cut:' '}}" loop controls>
+    {% with 'course/media/'|add:classID|add:'/'|add:subjectID|add:'/'|add:lesson|add:'.mp4' as video_url %}
+    <source src="{% static video_url %}" type="video/mp4">
+    {% endwith %}
+</video>

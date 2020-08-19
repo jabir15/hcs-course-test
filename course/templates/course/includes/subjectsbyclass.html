@@ -1,0 +1,15 @@
+{% if subjects %}
+<select class="form-control" id="subject_id">
+    <option value="None">Select Subject</option>
+    {% for subject in subjects %}
+    <option value="{{subject.name}}">
+        {{subject.name}}
+    </option>
+    {% endfor %}
+</select>
+{% else %}
+<select class="form-control" id="subject_id">
+    <option value="None">Select Subject</option>
+    
+</select>
+{% endif %}

@@ -1,0 +1,419 @@
+   	Physics Nuclie part 19 (Application fission : Nuclear reactor)
+   	Physics Nuclie part 20 (Nuclear fusion & energy generation in sun)
+   	Physics Nuclie part 21 (Numerical)
+   	Physics Nuclie part 22 (Numerical)
+   	Physics Nuclie part 23 (Numerical)
+   	Physics Nuclie part 24 (Numerical)
+   	Physics Potentiometer part 1
+   	Physics Potentiometer part 2
+   	Physics Potentiometer part 3
+   	Physics Potentiometer part 4
+   	Physics Potentiometer part 7
+   	Physics Communication Systems part 1 (Introduction) CBSE class 12
+   	Physics Communication Systems part 2 (Modes of Communication) CBSE class 12
+   	Physics Communication Systems part 3 (Elements of Communication) CBSE class 12
+   	Physics Communication Systems part 4 (Block diagram of communication system) CBSE class 12
+   	Physics Communication Systems part 5 (Signals: Analog & Digital) CBSE class 12
+   	Physics Communication Systems part 6 (Noise, Attenuation & Amplification) CBSE class 12
+   	Physics Communication Systems part 7 (Range, Modulation & Demodulation) CBSE class 12
+   	Physics Communication Systems part 8 (Bandwidth) CBSE class 12
+   	Physics Communication Systems part 9 (Point to point & broadcast system) CBSE class 12
+   	Physics Communication Systems part 10 (Modulation) CBSE class 12
+   	Physics Communication Systems part 11 (Factors affecting signal transmission) CBSE class 12
+   	Physics Communication Systems part 12 (Carrier wave, Modulation types) CBSE class 12
+   	Physics Communication Systems part 13 (Sin waves, AM, FM, PM) CBSE class 12
+   	Physics Communication Systems part 14 (Pulse waves: Modulation types) CBSE class 12
+   	Physics Communication Systems part 15 (How AM takes place, Mathematical) CBSE class 12
+   	Physics Communication Systems part 16 (Production of AM Waves) CBSE class 12
+   	Physics Communication Systems part 17 (Transmission & detector of AM waves) CBSE class 12
+   	Physics Communication Systems part 18 (Numerical) CBSE class 12
+   	Electric Charges and Fields Part 3 (Charging by conduction induction)
+   	Physics Atoms part 4 (Rutherford model) CBSE class 12
+   	Physics Atoms part 5 (Rutherford model: Electron orbitals & limitation) CBSE class 12
+   	Physics Atoms part 6 (Atomic Spectra CBSE class 12
+   	Physics Atoms part 7 (Dual character of Electromagnetic Radiation) CBSE class 12
+   	Physics Atoms part 8 (Bohr model & atomic spectra) CBSE class 12
+   	Physics Atoms part 9 (Line spectra to identify elements) CBSE class 12
+   	Physics Atoms part 10 (Line spectra of hydrogen) CBSE class 12
+   	Physics Atoms part 11 (Bohr model) CBSE class 12
+   	Physics Atoms part 12 (Heisenberg & De Broglie hypothesis) CBSE class 12
+   	Physics Atoms part 13 (Spectra of multi electron & quantum mechanics) CBSE class 12
+   	Physics Atoms part 14 (Numerical) CBSE class 12
+   	Physics Atoms part 15 (Numerical) CBSE class 12
+   	Physics Nuclie part 1 (Introduction)
+   	Physics Nuclie part 2 (Nuclie types, size & charge)
+   	Physics Nuclie part 3 (Mass Energy Equivalence Einstien)
+   	Physics Nuclie part 4 (Nuclear Binding energy)
+   	Physics Nuclie part 5 (Nuclear Binding energy per nucleon)
+   	Physics Nuclie part 6 (Nuclear force)
+   	Physics Nuclie part 7 (Numericals)
+   	Physics Nuclie part 8 (Numericals)
+   	Physics Nuclie part 9 (Radioactivity)
+   	Physics Nuclie part 10 (Nuclear Stability)
+   	Physics Nuclie part 11 (Radio Active Decay)
+   	Physics Nuclie part 12 (Life of radioactive decay)
+   	Physics Nuclie part 13 (Numericals)
+   	Physics Nuclie part 14 (Alpha radioactive decay)
+   	Physics Nuclie part 15 (Beta radioactive decay)
+   	Physics Nuclie part 16 (Gamma radioactive decay)
+   	Physics Nuclie part 17 (Nuclear Energy)
+   	Physics Nuclie part 18 (Nuclear fission controlled & un-controlled)
+   	
+   	Physics Atoms part 1 (Introduction) CBSE class 12
+   	Physics Atoms part 2 (Dalton Atomic Theory) CBSE class 12
+   	Physics Atoms part 3 (Thompson Model) CBSE class 12
+   	Physics Wave Optics part 21 (Interference & diffraction) CBSE class 12
+   	Physics Wave Optics part 22 (Resolving power of optical instruments) CBSE class 12
+   	Physics Wave Optics part 23 (Resolving power of telescope) CBSE class 12
+   	Physics Wave Optics part 24 (Resolving power of Microscope) CBSE class 12
+   	Physics Wave Optics part 25 (Validity of Wave Optics) CBSE class 12
+   	Physics Wave Optics part 26 (Numerical) CBSE class 12
+   	Physics Wave Optics part 27 (Polarizing & unpolarized light wave) CBSE class 12
+   	Physics Wave Optics part 28 (Polarization definition) CBSE class 12
+   	Physics Wave Optics part 29 (Application of Polaroid) CBSE class 12
+   	Physics Wave Optics part 30 (Image formation by lens) CBSE class 12
+   	Physics Wave Optics part 31 (Polarization by reflection & Refraction) CBSE class 12
+   	Physics Wave Optics part 32 (Brewster angle) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 1 (Introduction) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 2 (Discovery of electron) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 3 (Electron emission) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 4 (History of photo electric effect) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 5 (Photoe electric effect) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 6 (Photo Electric effect wave theory) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 7 (PhotoElectric effect: Einstien view) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 8 (Wave nature De Broglie) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 9 (Heigensberg uncertainity) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 10 (Davisson & Germer experiment) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 11 (Application of wave nature) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 12 (Numericals) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 13 (Numericals) CBSE class 12
+   	Physics Dual nature of radiation & Matter part 14 (Numericals) CBSE class 12
+   	
+   	Physics Ray Optics part 40 (Numerical Refractive index of prism) CBSE class 12
+   	Physics Ray Optics part 41 (Optical Instruments) CBSE class 12
+   	Physics Ray Optics part 42 (Human Eye) CBSE class 12
+   	Physics Ray Optics part 43 (Image formation at eye) CBSE class 12
+   	Physics Ray Optics part 44 (Defect of vision) CBSE class 12
+   	Physics Ray Optics part 45 (Numerical Eye) CBSE class 12
+   	Physics Ray Optics part 46 (Simple Microscope) CBSE class 12
+   	Physics Ray Optics part 47 (Compound Microscope) CBSE class 12
+   	Physics Ray Optics part 48 (Telescope) CBSE class 12
+   	Physics Ray Optics part 49 (Numerical) CBSE class 12
+   	
+   	Physics Ray Optics part 10 (Image form by Concave Mirror 1) CBSE class 12
+   	Physics Ray Optics part 11 (Image form by Concave Mirror 2) CBSE class 12
+   	Physics Ray Optics part 12 (Image form by Convex Mirror) CBSE class 12
+   	Physics Ray Optics part 13 (Spherical mirror Application) CBSE class 12
+   	Physics Ray Optics part 14 (Numerical Spherical mirror) CBSE class 12
+   	Physics Ray Optics part 15 (Numerical Spherical mirror) CBSE class 12
+   	Physics Ray Optics part 16 (Numerical Spherical mirror) CBSE class 12
+   	Physics Ray Optics part 17 (Refraction) CBSE class 12
+   	Physics Ray Optics part 18 (Refractive index) CBSE class 12
+   	Physics Ray Optics part 19 (Rarer, denser medium) CBSE class 12
+   	Physics Ray Optics part 20 (Refraction in glass slab & examples) CBSE class 12
+   	Physics Ray Optics part 21 (Total internal reflection) CBSE class 12
+   	Physics Ray Optics part 22 (Optical Fibers: Total internal reflection) CBSE class 12
+   	Physics Ray Optics part 23 (Prism: Total internal reflection) CBSE class 12
+   	Physics Ray Optics part 24 (Numerical Total internal reflection) CBSE class 12
+   	Physics Ray Optics part 25 (Refraction at Spherical Surface) CBSE class 12
+   	Physics Ray Optics part 26 (Real Apparent Depth) CBSE class 12
+   	Physics Ray Optics part 27 (Numerical: Refraction at Spherical Surface) CBSE class 12
+   	Physics Ray Optics part 28 (Refraction by lens) CBSE class 12
+   	Physics Ray Optics part 29 (Sign convention in lens) CBSE class 12
+   	Physics Ray Optics part 30 (Image formation by lens) CBSE class 12
+   	Physics Ray Optics part 31 (Refraction by lens) CBSE class 12
+   	Physics Ray Optics part 32 (Refraction by lens: comparison) CBSE class 12
+   	Physics Ray Optics part 33 (Magnification of lens) CBSE class 12
+   	Physics Ray Optics part 34 (Power of lens) CBSE class 12
+   	Physics Ray Optics part 35 (Numerical lens) CBSE class 12
+   	Physics Ray Optics part 36 (Numerical lens) CBSE class 12
+   	Physics Ray Optics part 37 (Refraction by Prism) CBSE class 12
+   	Physics Ray Optics part 38 (Refractive index of Prism) CBSE class 12
+   	Physics Ray Optics part 39 (Dispersion by Prism) CBSE class 12
+   	Physics Alternating current part 28 (Transformer working) CBSE class 12
+   	Physics Alternating current part 29 (Transformer application) CBSE class 12
+   	Physics Alternating current part 30 (Energy loss in Transformer) CBSE class 12
+   	Physics Alternating current part 31 (Numericals) CBSE class 12
+   	Physics Alternating current part 32 (Numericals) CBSE class 12
+   	Physics Alternating current part 33 (Numericals) CBSE class 12
+   	Physics Electromagnetic Waves part 1 (Introduction) CBSE class 12
+   	Physics Electromagnetic Waves part 2 (Maxwell Experiment) CBSE class 12
+   	Physics Electromagnetic Waves part 3 (Maxwell Correction to Ampere cicruital law) CBSE class 12
+   	Physics Electromagnetic Waves part 4 (Maxwell Equation, Displacement current) CBSE class 12
+   	Physics Electromagnetic Waves part 5 (Electromagnetic waves) CBSE class 12
+   	Physics Electromagnetic Waves part 6 (Energy in Electromagnetic waves) CBSE class 12
+   	Physics Electromagnetic Waves part 7 (Properties of Electromagnetic waves) CBSE class 12
+   	Physics Electromagnetic Waves part 8 (Electromagnetic Spectrum & Energy) CBSE class 12
+   	Physics Electromagnetic Waves part 9 (Radio waves Application) CBSE class 12
+   	Physics Electromagnetic Waves part 10 (Micro waves Application- 1) CBSE class 12
+   	Physics Electromagnetic Waves part 11 (Micro waves Application- 2) CBSE class 12
+   	Physics Electromagnetic Waves part 12 (Infra waves Application) CBSE class 12
+   	Physics Electromagnetic Waves part 13 (Other waves Application) CBSE class 12
+   	Physics Electromagnetic Waves part 14 (Numericals) CBSE class 12
+   	Physics Electromagnetic Waves part 15 (Numericals) CBSE class 12
+   	Physics Ray Optics part 1 (Introduction) CBSE class 12
+   	Physics Ray Optics part 2 (Reflection of Light) CBSE class 12
+   	Physics Ray Optics part 3 (Spherical Mirror) CBSE class 12
+   	Physics Ray Optics part 4 (Spherical mirror terminologies) CBSE class 12
+   	Physics Ray Optics part 5 (Focal Length of Spherical mirror) CBSE class 12
+   	Physics Ray Optics part 6 (Image formed by Spherical mirror) CBSE class 12
+   	Physics Ray Optics part 7 (Mirror equation concave mirror) CBSE class 12
+   	Physics Ray Optics part 8 (Mirror equation convex mirror) CBSE class 12
+   	Physics Ray Optics part 9 (Magnification by Spherical mirror) CBSE class 12
+   	Physics Electromagnetic Induction part 21 (Examples, Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 22 (Examples, Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 23 (Examples, Numericals) CBSE class 12
+   	Physics Alternating current part 1 (Introduction) CBSE class 12
+   	Physics Alternating current part 2 (AC vs DC : Direct Current) CBSE class 12
+   	Physics Alternating current part 3 (Resistive AC circuit) CBSE class 12
+   	Physics Alternating current part 4 (Power associated with Resistors AC) CBSE class 12
+   	Physics Alternating current part 5 (RMS voltage) CBSE class 12
+   	Physics Alternating current part 6 (RMS current) CBSE class 12
+   	Physics Alternating current part 7 (Phasor diagram, Current voltage for resistor) CBSE class 12
+   	Physics Alternating current part 8 (AC inductive circuit) CBSE class 12
+   	Physics Alternating current part 9 (Current voltage for Inductive circuit) CBSE class 12
+   	Physics Alternating current part 10 (Power associated with inductor) CBSE class 12
+   	Physics Alternating current part 11 (Capacitive AC circuit) CBSE class 12
+   	Physics Alternating current part 12 (Power associated with capacitive AC circuit) CBSE class 12
+   	Physics Alternating current part 13 (Series LCR circuit) CBSE class 12
+   	Physics Alternating current part 14 (Impedance in LCR circuit) CBSE class 12
+   	Physics Alternating current part 15 (AC voltage to LCR circuit series) CBSE class 12
+   	Physics Alternating current part 16 (Phasor diagram Series LCR circuit) CBSE class 12
+   	Physics Alternating current part 17 (Impedence diagram) CBSE class 12
+   	Physics Alternating current part 18 (Resonance) CBSE class 12
+   	Physics Alternating current part 19 (Application of resonance) CBSE class 12
+   	Physics Alternating current part 20 (Numericals) CBSE class 12
+   	Physics Alternating current part 21 (Numericals) CBSE class 12
+   	Physics Alternating current part 22 (Numericals) CBSE class 12
+   	Physics Alternating current part 23 (Numericals) CBSE class 12
+   	Physics Alternating current part 24 (Power in AC circuit) CBSE class 12
+   	Physics Alternating current part 25 (LC oscillations) CBSE class 12
+   	Physics Alternating current part 26 (Oscillation in LC circuit) CBSE class 12
+   	Physics Alternating current part 27 (Transformer) CBSE class 12
+   	Physics Matter & Magnetism part 20 (Magnetic Permeability) CBSE class 12
+   	Physics Matter & Magnetism part 21 (Dimagnetic Substance) CBSE class 12
+   	Physics Matter & Magnetism part 22 (Paramagnetic & Ferromagnetic Substance) CBSE class 12
+   	Physics Matter & Magnetism part 23 (Electron theory of dimagnetism) CBSE class 12
+   	Physics Matter & Magnetism part 24 (Electron theory of paramagnetism) CBSE class 12
+   	Physics Matter & Magnetism part 25 (Electron theory of ferromagnetism) CBSE class 12
+   	Physics Matter & Magnetism part 26 (Curie law of magnetism) CBSE class 12
+   	Physics Matter & Magnetism part 27 (Hysteresis loop) CBSE class 12
+   	Physics Matter & Magnetism part 28 (Permanent magnet) CBSE class 12
+   	Physics Matter & Magnetism part 29 (Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 1 (Introduction) CBSE class 12
+   	Physics Electromagnetic Induction part 2 (Flux) CBSE class 12
+   	Physics Electromagnetic Induction part 3 (Faraday's Experiment) CBSE class 12
+   	Physics Electromagnetic Induction part 4 (Faraday's Law) CBSE class 12
+   	Physics Electromagnetic Induction part 5 (Lenz Law) CBSE class 12
+   	Physics Electromagnetic Induction part 6 (Direction of induced current) CBSE class 12
+   	Physics Electromagnetic Induction part 7 (Methods of inducing EMF -1) CBSE class 12
+   	Physics Electromagnetic Induction part 8 (Methods of inducing EMF -2) CBSE class 12
+   	Physics Electromagnetic Induction part 9 (Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 10 (Examples, Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 11 (Examples, Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 12 (Examples, Numericals) CBSE class 12
+   	Physics Electromagnetic Induction part 13 (Eddy current) CBSE class 12
+   	Physics Electromagnetic Induction part 14 (Eddy current disadvantage & Application) CBSE class 12
+   	Physics Electromagnetic Induction part 15 (Inductance) CBSE class 12
+   	Physics Electromagnetic Induction part 16 (Back EMF) CBSE class 12
+   	Physics Electromagnetic Induction part 17 (Mutual Inductance) CBSE class 12
+   	Physics Electromagnetic Induction part 18 (Mutual inductance between long solenoids) CBSE class 12
+   	Physics Electromagnetic Induction part 19 (Self & Mutual inductance) CBSE class 12
+   	Physics Electromagnetic Induction part 20 (AC generator) CBSE class 12
+   	Physics Moving Charge & Magnetism part 25 (Magnetic field in Solenoid) CBSE class 12
+   	Physics Moving Charge & Magnetism part 26 (Toroid) CBSE class 12
+   	Physics Moving Charge & Magnetism part 27 (Examples, Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 28 (Force between parallel conductors) CBSE class 12
+   	Physics Moving Charge & Magnetism part 29 (Ampere) CBSE class 12
+   	Physics Moving Charge & Magnetism part 30 (Torque on current loop :part 1) CBSE class 12
+   	Physics Moving Charge & Magnetism part 31 (Torque on current loop :part 2) CBSE class 12
+   	Physics Moving Charge & Magnetism part 32 (Circular current loop as magnetic dipole) CBSE class 12
+   	Physics Moving Charge & Magnetism part 33 (Magnetic diapole of revolving electron) CBSE class 12
+   	Physics Moving Charge & Magnetism part 34 (Examples, Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 35 (Examples, Numericals) CBSE class 12
+   	Physics Matter & Magnetism part 1 (Introduction) CBSE class 12
+   	Physics Matter & Magnetism part 2 (Bar magnet Properties) CBSE class 12
+   	Physics Matter & Magnetism part 3 (Magnetic field lines) CBSE class 12
+   	Physics Matter & Magnetism part 4 (Current loop as magnetic diapole) CBSE class 12
+   	Physics Matter & Magnetism part 5 (Bar magnet & Solenoid) CBSE class 12
+   	Physics Matter & Magnetism part 6 (Dipole in Uniform Magnetic field -1) CBSE class 12
+   	Physics Matter & Magnetism part 7 (Diapole in Uniform Magnetic field -2) CBSE class 12
+   	Physics Matter & Magnetism part 8 (Diapole analogy of electrostatic vs magnetic) CBSE class 12
+   	Physics Matter & Magnetism part 9 (Gauss law of magnetism) CBSE class 12
+   	Physics Matter & Magnetism part 10 (Numericals) CBSE class 12
+   	Physics Matter & Magnetism part 11 (Numericals) CBSE class 12
+   	Physics Matter & Magnetism part 12 (Earth Magnetism - Dynamo Theory) CBSE class 12
+   	Physics Matter & Magnetism part 13 (Magnetic North & South Pole) CBSE class 12
+   	Physics Matter & Magnetism part 14 (Magnetic Declination) CBSE class 12
+   	Physics Matter & Magnetism part 15 (Magnetic Dip) CBSE class 12
+   	Physics Matter & Magnetism part 16 (Numericals) CBSE class 12
+   	Physics Matter & Magnetism part 17 (Magnetization) CBSE class 12
+   	Physics Matter & Magnetism part 18 (Magnetic Intensity) CBSE class 12
+   	Physics Matter & Magnetism part 19 (Magnetic Suspectivility) CBSE class 12
+   	Physics Electric Circuits part 18 (wheatstone bridge) CBSE class 12
+   	Physics Electric Circuits part 19 (Meter bridge) CBSE class 12
+   	Physics Electric Circuits part 20 (Numericals) CBSE class 12
+   	Physics Electric Circuits part 21 (Bulb in series & parallel) CBSE class 12
+   	Physics Electric Circuits part 22 (How bulb glow) CBSE class 12
+   	Physics Electric Circuits part 23 (Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 1 (Introduction) CBSE class 12
+   	Physics Moving Charge & Magnetism part 2 (Oersted Experiment) CBSE class 12
+   	Physics Moving Charge & Magnetism part 3 (Magnetic field) CBSE class 12
+   	Physics Moving Charge & Magnetism part 4 (Magnetic Force) CBSE class 12
+   	Physics Moving Charge & Magnetism part 5 (Direction & Unit of magnetic force) CBSE class 12
+   	Physics Moving Charge & Magnetism part 6 (Lorentz force) CBSE class 12
+   	Physics Moving Charge & Magnetism part 8 (Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 7 (Force on current carrying conductor) CBSE class 12
+   	Physics Moving Charge & Magnetism part 9 (Motion of charged particle in magnetic field) CBSE 12
+   	Physics Moving Charge & Magnetism part 10 (Helical Motion) CBSE class 12
+   	Physics Moving Charge & Magnetism part 11 (Motion in combined Electric & Magnetic field) CBSE 12
+   	Physics Moving Charge & Magnetism part 12 (Crossed Electric magnetic field Velocity Selector) CBSE
+   	Physics Moving Charge & Magnetism part 13 (Cyclotron) CBSE class 12
+   	Physics Moving Charge & Magnetism part 14 (Cyclotron Working & Application) CBSE class 12
+   	Physics Moving Charge & Magnetism part 15 (Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 16 (Bio Savart Law vs couloumb law) CBSE class 12
+   	Physics Moving Charge & Magnetism part 17 (Magnetic field due to straight conductor) CBSE class 12
+   	Physics Moving Charge & Magnetism part 18 (Magnetic field due to circular loop) CBSE class 12
+   	Physics Moving Charge & Magnetism part 19 (Magnetic field due to circular loop- Special case) CBSE
+   	Physics Moving Charge & Magnetism part 20 (Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 21 (Examples, Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 22 (Ampere circuital law) CBSE class 12
+   	Physics Moving Charge & Magnetism part 23 (Numericals) CBSE class 12
+   	Physics Moving Charge & Magnetism part 24 (Solenoid) CBSE class 12
+   	Physics Current Electricity part 17 (Electric conductance and conductivity) CBSE class 12
+   	Physics Current Electricity part 18 (Microscopic form of Ohms law) CBSE class 12
+   	Physics Current Electricity part 19 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 20 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 16 (Current density) CBSE class 12
+   	Physics Current Electricity part 21 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 23 (Resistors parallel and series) CBSE class 12
+   	Physics Current Electricity part 27 (Examples, Numericals : Symmetry Problem) CBSE class 12
+   	Physics Current Electricity part 28 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 29 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 30 (Examples, Numericals) CBSE class 12
+   	Physics Current Electricity part 24 (Examples, Numericals resistors) CBSE class 12
+   	Physics Current Electricity part 26 (Examples, Numericals : Delta Star transformation) CBSE class 12
+   	Physics Current Electricity part 22 (Resistors) CBSE class 12
+   	Physics Current Electricity part 25 (Examples, Numericals Wheatstone bridge) CBSE class 12
+   	Physics Electric Circuits part 3 (Direction of current) CBSE class 12
+   	Physics Electric Circuits part 4 (Internal Resistance of cell) CBSE class 12
+   	Physics Electric Circuits part 5 (EMF of cell) CBSE class 12
+   	Physics Electric Circuits part 6 (Potential Difference of Cell) CBSE class 12
+   	Physics Electric Circuits part 7 (Cell in Series) CBSE class 12
+   	Physics Electric Circuits part 8 (Cell in parallel) CBSE class 12
+   	Physics Electric Circuits part 9 (NUmericals: Cell parallel, series) CBSE class 12
+   	Physics Electric Circuits part 12 (Kirchhoff loop law) CBSE class 12
+   	Physics Electric Circuits part 10 (NUmericals: Cell parallel, series) CBSE class 12
+   	Physics Electric Circuits part 11 (Kirchhoff Junction law) CBSE class 12
+   	Physics Electric Circuits part 13 (Numerials: Kirchhoff law) CBSE class 12
+   	Physics Electric Circuits part 14 (Numerials: Kirchhoff law) CBSE class 12
+   	Physics Electric Circuits part 15 (Numerials: Kirchhoff law) CBSE class 12
+   	Physics Electric Circuits part 16 (Numerials: Kirchhoff law) CBSE class 12
+   	Physics Electric Circuits part 17 (Numerials: Kirchhoff law) CBSE class 12
+   	Physics Capacitor & Capacitance part 13 (Numericals) CBSE class 12
+   	Physics Capacitor & Capacitance part 14 (Numericals) CBSE class 12
+   	Physics Capacitor & Capacitance part 15 (Series & parallel Capacitors) CBSE class 12
+   	Physics Capacitor & Capacitance part 16 (Equivalent Capacitance) CBSE class 12
+   	Physics Capacitor & Capacitance part 17 (Numericals : Equivalent Capacitance) CBSE class 12
+   	Physics Capacitor & Capacitance part 18 (Numericals : Equivalent Capacitance) CBSE class 12
+   	Physics Capacitor & Capacitance part 19 (Energy Stored in Capacitors, Energy density) CBSE class 12
+   	Physics Capacitor & Capacitance part 20 (Numericals : Energy) CBSE class 12
+   	Physics Capacitor & Capacitance part 21 (Numericals : Energy) CBSE class 12
+   	Physics Capacitor & Capacitance part 22 (Problem: Wheatstone Bridge Numericals) CBSE class 12
+   	Physics Capacitor & Capacitance part 23 (Kirchoff Law) CBSE class 12
+   	Physics Capacitor & Capacitance part 24 (Numericals) CBSE class 12
+   	Physics Capacitor & Capacitance part 25 (Numericals) CBSE class 12
+   	Physics Capacitor & Capacitance part 26 (Open Circuit Problem) CBSE class 12
+   	Physics Capacitor & Capacitance part 27 (Infinite Capacitor problems) CBSE class 12
+   	Physics Current Electricity part 1 (Introduction) CBSE class 12
+   	Physics Current Electricity part 2 (Ampere, Charge flow) CBSE class 12
+   	Physics Current Electricity part 3 (EMF : Electro Motive Force) CBSE class 12
+   	Physics Current Electricity part 4 (Current Scalar or Vector ?) CBSE class 12
+   	Physics Current Electricity part 5 (Alternating, Direct current : AC DC) CBSE class 12
+   	Physics Current Electricity part 6 (Charge Carrier in Solid) CBSE class 12
+   	Physics Current Electricity part 7 (Charge Carrier Liquid, Gas) CBSE class 12
+   	Physics Current Electricity part 8 (Drift Velocity of electron in conductor) CBSE class 12
+   	Physics Current Electricity part 9 (Expression : Drift Velocity of electron) CBSE class 12
+   	Physics Current Electricity part 11 (Ohms law) CBSE class 12
+   	Physics Current Electricity part 10 (Current & Drift velocity) CBSE class 12
+   	Physics Current Electricity part 12 (Resistance) CBSE class 12
+   	Physics Current Electricity part 13 (Factors impacting resistance) CBSE class 12
+   	Physics Current Electricity part 15 (Ohms Law derivation & limitation) CBSE class 12
+   	Physics Current Electricity part 14 (Resistivity) CBSE class 12
+   	Physics Electrostatic Potential part 4 (Potential Energy and Potential Difference) CBSE class 12
+   	Physics Electrostatic Potential part 5 (Define Electrostatic Potential) CBSE class 12
+   	Physics Electrostatic Potential part 6 (Electrostatic Potential due to a point charge) CBSE class 12
+   	Physics Electrostatic Potential part 7 (More on Electrostatic Potential) CBSE class 12
+   	Physics Electrostatic Potential part 8 (Potential Difference) CBSE class 12
+   	Physics Electrostatic Potential part 9 (Potential Difference due to system of charge) CBSE class 12
+   	Physics Electrostatic Potential part 10 (Potential Diff due to electric diapole:axial) CBSE class 12
+   	Physics Electrostatic Potential part 11 (Potential Diff due to electric diapole: equatorial) CBSE 12
+   	Physics Electrostatic Potential part 12 (Potential Diff due to electric diapole: general point) CBSE
+   	Physics Electrostatic Potential part 13 (Continuous charge distribution) CBSE class 12
+   	Physics Electrostatic Potential part 14 (Potential Difference Problems) CBSE class 12
+   	Physics Electrostatic Potential part 15 (Potential Difference Problems) CBSE class 12
+   	Physics Electrostatic Potential part 16 (Relation between Electric Field & potential) CBSE class 12
+   	Physics Electrostatic Potential part 17 (Potential Energy due to 2 point charge) CBSE class 12
+   	Physics Electrostatic Potential part 18 (Potential Energy due to N point charge) CBSE class 12
+   	Physics Electrostatic Potential part 19 (Potential Energy in external field) CBSE class 12
+   	Physics Electrostatic Potential part 20 (Potential Energy Problems) CBSE class 12
+   	Physics Electrostatic Potential part 21 (Lightining flash) CBSE class 12
+   	Physics Capacitor & Capacitance part 1 (Introduction) CBSE class 12
+   	Physics Capacitor & Capacitance part 2 (Behaviour of Conductor in Electric Field) CBSE class 12
+   	Physics Capacitor & Capacitance part 3 (Behaviour of Conductor in Electric Field) CBSE class 12
+   	Physics Capacitor & Capacitance part 4 (Electrical Shielding) CBSE class 12
+   	Physics Capacitor & Capacitance part 5 (Electrical capacitance) CBSE class 12
+   	Physics Capacitor & Capacitance part 6 (How capacitor Works) CBSE class 12
+   	Physics Capacitor & Capacitance part 7 (Parallel Plate capacitor) CBSE class 12
+   	Physics Capacitor & Capacitance part 8 (What is Dielectric) CBSE class 12
+   	Physics Capacitor & Capacitance part 9 (Polarization of Dielectric) CBSE class 12
+   	Physics Capacitor & Capacitance part 10 (Dielectric & Polarization) CBSE class 12
+   	Physics Capacitor & Capacitance part 11 (Capacitance parallel plate Conducting slab) CBSE class 12
+   	Physics Capacitor & Capacitance part 12 (Capacitance parallel plate - Dielectric slab) CBSE class 12
+   	Physics Electric Charges & Fields part 7 (Properties of electric charge) CBSE class 12
+   	Physics Electric Charges & Fields part 8 (Coulomb law) CBSE class 12
+   	Physics Electric Charges & Fields part 9 (Vector form of coulomb law) CBSE class 12
+   	Physics Electric Charges & Fields part 10 (Unit of electric charge) CBSE class 12
+   	Physics Electric Charges & Fields part 11 (Principle of superposition) CBSE class 12
+   	Physics Electric Charges & Fields part 12 (Continuous charge distribution) CBSE class 12
+   	Physics Electric Charges & Fields part 13 (Linear charge distribution) CBSE class 12
+   	Physics Electric Charges & Fields part 14 (Problem 1) CBSE class 12
+   	Physics Electric Charges & Fields part 16 (Electric Field) CBSE class 12
+   	Physics Electric Charges & Fields part 17 (Electric field intensity point charge) CBSE class 12
+   	Physics Electric Charges & Fields part 15 (Problem 2) CBSE class 12
+   	Physics Electric Charges & Fields part 18 (Electric field intensity long conductor 1) CBSE class 12
+   	Physics Electric Charges & Fields part 19 (Electric field intensity long conductor 2) CBSE class 12
+   	Physics Electric Charges & Fields part 20 (Electric field intensity circular coil) CBSE class 12
+   	Physics Electric Charges & Fields part 21 (Properties of Electric field lines) CBSE class 12
+   	Physics Electric Charges & Fields part 22 (Problem) CBSE class 12
+   	Physics Electric Charges & Fields part 23 (Problem) CBSE class 12
+   	Physics Electric Charges & Fields part 24 (Electric Diapole) CBSE class 12
+   	Physics Electric Charges & Fields part 25 (Electric field axial point due to diapole) CBSE class 12
+   	Physics Electric Charges & Fields part 26 (Electric field equatorial due to diapole) CBSE class 12
+   	Physics Electric Charges & Fields part 27 (Diapole in uniform electric field) CBSE class 12
+   	Physics Electric Charges & Fields part 28 (Problem Diapole) CBSE class 12
+   	Physics Electric Charges & Fields part 29 (Electric flux) CBSE class 12
+   	Physics Electric Charges & Fields part 30 (Gauss law proof) CBSE class 12
+   	Physics Electric Charges & Fields part 31 (Field long string uniformly charged wire) CBSE class 12
+   	Physics Electric Charges & Fields part 32 (Field uniformly charged speherical shell) CBSE class 12
+   	Physics Electric Charges & Fields part 33 (Problem) CBSE class 12
+   	Physics Electrostatic Potential part 1 (Introduction) CBSE class 12
+   	Physics Electrostatic Potential part 2 (Potential Energy, Difference concept) CBSE class 12
+   	Physics Electrostatic Potential part 3 (Work done is path independent) CBSE class 12
+   	Physics Straight line motion Part 12 Acceleration, class 11 CBSE
+   	Physics Laws of motion part 12 (Contact force, Friction) CBSE class 11
+   	Physics Work Energy Power part 12 (Introduction to spring force) CBSE class 11
+   	Physics Gravitation Part 12 (Kepler's second 2nd law: Law of Areas) CBSE class 11 XI
+   	Physics Motion in plane part 12 (Position Vector and Displacement) CBSE class 11
+   	Physics Mechanical Properties of Solids part 12 (Examples) CBSE class 11
+   	Physics Mechanical properties of Fluids mechanics part 12 (Examples) CBSE class 11
+   	Physics Thermal Properties part 12 (Examples) CBSE class 11
+   	Physics Kinetic Theory part 12 (Examples) CBSE class 11
+   	Physics Oscillations part 12 (Velocity in Simple harmonic Motion) CBSE class 11
+   	Physics Thermodynamics part 12 (Adiabatic Process) CBSE class 11
+   	Physics Waves part 12 (Speed of Travelling waves) CBSE class 11
+   	Physics Electric Charges & Fields part 1 (Introduction) CBSE class 12
+   	Physics Electric Charges & Fields part 2 (What is electric charge) CBSE class 12
+   	Physics Electric Charges & Fields part 4 (Earthing) CBSE class 12
+   	Physics Electric Charges & Fields part 5 (Charge by contact) CBSE class 12
+   	Physics Electric Charges & Fields part 6 (Charge by induction) CBSE class 12

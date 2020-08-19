@@ -1,0 +1,77 @@
+<div class="container-fluid p-2">
+    <div class="row">
+        <div class="col-3"></div>
+        <div class="col-6">
+            <form action="/topicsbyclass/" method="POST" role="search">{% csrf_token %}
+                <div class="form-row">
+                    <div class="col">
+                        <select class="form-control" id="class_id">
+                            <option value="None">Select Subject</option>
+                            {% for standard in standards %}
+                            <option value="C{{standard.name}}">
+                                Class {{standard.name}}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                    <div class="col">
+                        <select class="form-control" id="subject_id">
+                            <option value="None">Select Subject</option>
+                            {% for subject in subjects %}
+                            <option value="{{subject.name}}">
+                                {{subject.name}}
+                            </option>
+                            {% endfor %}
+                        </select>
+                    </div>
+                </div>
+            </form>
+        </div>
+        <div class="col-3"></div>
+    </div>
+</div>
+
+<div class="containter-fluid">
+    <div class="row">
+        <div class="col-1"></div>
+        <div class="col-10">
+            <div id="topics">
+
+            </div>
+        </div>
+        <div class="col-1"></div>
+    </div>
+
+</div>
+
+
+<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+<script>
+    $("#class_id").change(function () {
+        var classID = $(this).val();
+        var subjectID = $("#subject_id").val();
+
+        $.ajax({
+            method: "POST",
+            url: "/topicsbyclass/",
+            data: { 'classID': classID, 'subjectID': subjectID, 'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val() },
+            success: function (data) {
+                $("#topics").html(data);
+            }
+        });
+    });
+
+    $("#subject_id").change(function () {
+        var subjectID = $(this).val();
+        var classID = $("#class_id").val();
+
+        $.ajax({
+            method: "POST",
+            url: "/topicsbyclass/",
+            data: { 'classID': classID, 'subjectID': subjectID, 'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val() },
+            success: function (data) {
+                $("#topics").html(data);
+            }
+        });
+    });
+</script>

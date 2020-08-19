@@ -1,0 +1,193 @@
+{% extends "course/base.html" %} {% load static %} {% load myfilters %}
+{% block content %}
+<br>
+<br>
+
+<section>
+    <div class="container-fluid">
+        <div class="row">
+            <br>
+
+
+            <div class="col-md-1">
+            </div>
+            <div class="col-md-10">
+
+                <div class="contactcard bg-light border border-primary">
+                    {% if loginform.errors %}
+                    <div id="myAlert" class="alert alert-danger rounded-top alert-dismissible fade show m-0" style="border-radius:0">
+                        Sorry, that's not a valid username or password. If you have not registered, kindly <a
+                            data-toggle="tab" role="tab" href="#signup">sign up</a>.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    {% endif %}
+                    {% if signupform.errors %}
+                    <div id="myAlert" class="alert alert-danger rounded-top alert-dismissible fade show m-0" style="border-radius:0">
+                        Kindly correct the information as per requirements.
+                        <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                            <span aria-hidden="true">&times;</span>
+                        </button>
+                    </div>
+                    {% endif %}
+                    <div class="container-fluid">
+                        <div class="row" style="margin-left:-15px; margin-right:-30px">
+                            <div class="col-md-4 ">
+                                <div class="card-header bg-light" style="margin-left:-15px; margin-right:-20px; padding:10px 0px 0px 15px;">
+                                    <ul class="nav nav-tabs bg-light" id="myTab" role="tablist">
+                                        <li class="nav-item">
+                                            <a class="nav-link {% if tab == 'login' %}active{% endif %} text-danger" id="login-tab"
+                                                data-toggle="tab" href="#login" role="tab" aria-controls="login"
+                                                aria-selected="true">Login
+                                            </a>
+                                        </li>
+
+                                        <li class="nav-item">
+                                            <a class="nav-link {% if tab == 'signup' %}active{% endif %} " id="signup-tab"
+                                                data-toggle="tab" href="#signup" role="tab" aria-controls="signup"
+                                                aria-selected="false">SignUp</a>
+                                        </li>
+                                    </ul>
+                                </div>
+                                <div class="card-body">
+                                    <div class="tab-content" id="myTabContent">
+                                        <div class="tab-pane fade {% if tab == 'login' %}show active{% endif %}  " id="login"
+                                            role="tabpanel" aria-labelledby="login-tab">
+                                            <h2 class="text-center text-danger">Login Now</h2>
+                                            {% if loginform %}
+                                            <form novalidate method="POST" action="{% url 'login' %}">
+                                                {% csrf_token %}
+                                                <div class="form-group">
+                                                    {{ loginform.username.label_tag }}
+                                                    {{loginform.username|addClass:'form-control'}}
+                                                    {% if loginform.errors%}
+                                                    <div>
+                                                        {{loginform.errors.username}}
+                                                    </div>
+                                                    {% endif %}
+                                                </div>
+                                                <div class="form-group">
+                                                    {{ loginform.password.label_tag }}
+                                                    {{loginform.password|addClass:'form-control'}}
+                                                    {% if loginform.errors%}
+                                                    <div>
+                                                        {{loginform.errors.password}}
+                                                    </div>
+                                                    {% endif %}
+                                                </div>
+                                                <div class="d-flex justify-content-between align-items-center">
+                                                    <button class="btn btn-danger" type="submit" name="log-in">Login</button>
+                                                    <a class="form-text text-muted" href="{% url 'home-page' %}">Guest
+                                                        Lecturer Login
+                                                    </a>
+                                                </div>
+                                            </form>
+                                            {% endif %}
+
+                                        </div>
+                                        <div class="tab-pane fade {% if tab == 'signup' %}show active{% endif %} " id="signup"
+                                            role="tabpanel" aria-labelledby="signup-tab">
+                                            <h2 class="text-center text-primary">Signup Now</h2>
+                                            {% if signupform %}
+                                            <form novalidate method="POST" action="{% url 'login' %}">
+                                                {% csrf_token %}
+                                                <div class="form-group">
+                                                    {{ signupform.username.label_tag }}
+                                                    {{signupform.username|addClass:'form-control'}}
+                                                    {% if signupform.errors%}
+                                                    <div>
+                                                        {{signupform.errors.username}}
+                                                    </div>
+                                                    {% endif %}
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            {{ signupform.first_name.label_tag }}
+                                                            {{signupform.first_name|addClass:'form-control'}}
+                                                            {% if signupform.errors%}
+                                                            <div>
+                                                                {{signupform.errors.first_name}}
+                                                            </div>
+                                                            {% endif %}
+                                                        </div>
+                                                        <div class="col">
+                                                            {{ signupform.last_name.label_tag }}
+                                                            {{signupform.last_name|addClass:'form-control'}}
+                                                            {% if signupform.errors%}
+                                                            <div>
+                                                                {{signupform.errors.last_name}}
+                                                            </div>
+                                                            {% endif %}
+
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="form-group">
+                                                    <div class="form-row">
+                                                        <div class="col">
+                                                            {{ signupform.password1.label_tag }}
+                                                            {{signupform.password1|addClass:'form-control'}}
+                                                            <small id="emailHelp" class="form-text text-muted">Use
+                                                                <strong>holycross</strong> </small>
+                                                            {% if signupform.errors%}
+                                                            <div>
+                                                                {{signupform.errors.password1}}
+                                                            </div>
+                                                            {% endif %}
+                                                        </div>
+                                                        <div class="col">
+                                                            <label for="{{ signupform.password2.id_for_label }}">Confirm
+                                                                Password:</label>
+                                                            {{signupform.password2|addClass:'form-control'}}
+                                                            {% if signupform.errors%}
+                                                            <div class="errorlist">
+                                                                {{signupform.errors.password2}}
+                                                            </div>
+                                                            {% endif %}
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <button class="btn btn-primary" type="submit" name="sign-up">Sign
+                                                    Up</button>
+                                            </form>
+                                            {% endif %}
+                                        </div>
+                                    </div>
+
+                                </div>
+
+                            </div>
+                            <div class="col-md-8 " style="margin-left:-15px;">
+                                <img class="img-fluid m-2 border border-dark" src="{% static 'course/img/bkg1.png' %}">
+                            </div>
+                            <!-- <div class="copy-text">Created with <i class="fa fa-heart"></i> by <a href="http://grafreez.com">Grafreez.com</a></div> -->
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-1">
+            </div>
+
+        </div>
+        <div class="row">
+            <div class="col-md-10">
+
+            </div>
+            <div class="col-md-1 border rounded-bottom border-top-0 border-dark bg-secondary text-center" style="margin-left:-15px;">
+                <a class="text-light" href="/admin/">Admin Login</a>
+            </div>
+        </div>
+    </div>
+</section>
+{% endblock %}
+{% block individualscript %}
+<script>
+    $('.alert>a').on('click', function (e) {
+        e.preventDefault();
+        $('#myTab a[href="#signup"]').tab('show');
+        $('#myAlert').alert('close');
+    });
+</script>
+{% endblock %}

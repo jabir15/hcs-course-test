@@ -1,0 +1,62 @@
+{% load static %}
+{% if topics %}
+<ul class="list-group">
+    {% for topic in topics %}
+    <li class="list-group-item">
+        {{chapterNumber}}.{{forloop.counter}} {% if topic.video %}<a href="https://www.youtube.com/watch?v={{topic.video}}" target="_blank" >{{topic.lesson}}</a>{% else %}{{topic.lesson}}{%endif%}
+        <button type="button" class="btn btn-sm btn-info" data-toggle="modal" data-target="#myModal_{{chapterID|cut:' '}}" data-id="{{classID}}_{{subjectID}}_{{chapterID}}_{{topic.lesson}}">
+            Open Video
+        </button>
+    </li>
+    {% endfor %}
+</ul>
+<div class="modal fade" id="myModal_{{chapterID|cut:' '}}" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-lg modal-dialog-centered" role="document">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h5 class="modal-title" id="myModalLabel">Modal title</h5>
+                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                </button>
+            </div>
+            <div class="modal-body" id="myModalBody">
+
+                <div class="embed-responsive embed-responsive-16by9">
+                    <video class="embed-responsive-item" id="myModalVideo_{{chapterID|cut:' '}}" autoplay controls>
+                        <source src="" type="video/mp4">
+                    </video>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</div>
+{% endif %}
+{% block indiviualscript %}
+<script>
+    $("#myModal_{{chapterID|cut:' '}}").on('show.bs.modal',function(e){
+        var button = $(e.relatedTarget);
+        var id = button.data('id').split('_');
+        var classID = id[0];
+        var subjectID = id[1];
+        var chapterID = id[2];
+        var lessonID = id[3];
+
+        var modal = $(this);
+        var video_url = '/static/course/media/' + classID + '/' + subjectID + '/' + chapterID + '/' + lessonID + '.mp4';
+        console.log(video_url);
+        modal.find('.modal-title').text(chapterID + ' - ' + lessonID);
+        modal.find('.modal-body source').attr('src',video_url);
+        modal.find('.modal-body video')[0].load();
+
+    });
+
+    $("#myModal_{{chapterID|cut:' '}}").on('hidden.bs.modal', function () {
+        $("#myModalVideo_{{chapterID|cut:' '}}")[0].pause();
+    });
+
+    $("#myModalVideo_{{chapterID|cut:' '}}").on('ended', function () {
+        $("#myModal_{{chapterID|cut:' '}}").modal('hide');
+    });
+</script>
+{% endblock %}

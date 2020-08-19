@@ -1,0 +1,97 @@
+<div class="container-fluid">
+        <div class="row">
+            <div class="col-lg-1">
+            </div>
+            <div class="col-lg-10">
+                <div class="contactcard">
+                    <div class="container-fluid">
+                        <div class="row">
+                            <div class="col-lg-7">
+                                <div class="card-body">
+                                    <h3 class="card-title mb-4">
+                                        <i class="fas fa-user pr-2"></i>Log In</h3>
+                                    <form class="needs-validation" method="POST" action="{% url 'login' %}">
+                                        {% csrf_token %}
+                                        <div class="form-group">
+                                            <label for="id_username">Enter Username</label>
+                                            <input class="form-control" type="text" name="username" autofocus maxlength="254" required id="id_username" placeholder="Username" />
+                                            <div class="invalid-feedback">
+                                                Please choose a username.
+                                            </div>
+                                        </div>
+                                        <div class="form-group">
+                                            <label for="id_password">Enter Password</label>
+                                            <input class="form-control" type="password" name="password" required id="id_password" placeholder="Password" />
+                                            <div class="invalid-feedback">
+                                                Enter correct password.
+                                            </div>
+                                        </div>
+                                        <div class="d-flex justify-content-between">
+                                            <button class="btn btn-dark " type="submit">Login</button>
+                                            <a class="form-text text-muted" href="{% url 'home-page' %}">Guest Lecturer Login</a>
+                                        </div>
+                                    </form>
+                            </div>
+                        </div>
+                        <div class="col-lg-5 d-inline-flex align-items-center bg-dark">
+                            <div class="card-body text-white text-center">
+                                <h3 class="card-title mb-1">Holy Cross School</h3>
+                                <h4 class="card-title mb-4">Massive Open Online Course</h4>
+                                <ul class="list-unstyled">
+                                    <li>
+                                        <p>
+                                            <i class="fas fa-map-marker-alt pr-2"></i>Silchar, 788006, India</p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <i class="fas fa-phone pr-2"></i>+ 91 801-181-7346</p>
+                                    </li>
+                                    <li>
+                                        <p>
+                                            <i class="fas fa-envelope pr-2"></i>dipsekhar@wildslug.com</p>
+                                    </li>
+                                </ul>
+                                <hr class="dropdown-divider">
+                                <ul class="list-inline text-center list-unstyled">
+                                    <li class="list-inline-item">
+                                        <a class="p-2" href="https://www.twitter.com/" target="_blank">
+                                            <span style="font-size: 2em; color:white;">
+                                                <i class="fab fa-twitter"></i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="p-2" href="https://www.google.com/" target="_blank">
+                                            <span style="font-size: 2em; color:white;">
+                                                <i class="fab fa-google-plus"> </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="p-2" href="https://www.instagram.com/" target="_blank">
+                                            <span style="font-size: 2em; color:white;">
+                                                <i class="fab fa-instagram"> </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                    <li class="list-inline-item">
+                                        <a class="p-2" href="https://www.facebook.com/" target="_blank">
+                                            <span style="font-size: 2em; color:white;">
+                                                <i class="fab fa-facebook"> </i>
+                                            </span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+    
+        </div>
+        <div class="col-lg-1">
+    
+        </div>
+    
+    </div>
+    <br>

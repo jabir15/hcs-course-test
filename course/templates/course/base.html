@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <title>Holy Cross School Online Course</title>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {% load static %}
+    <link rel="stylesheet" href="{% static 'course/css/bootstrap.css' %}" type="text/css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.1.0/css/all.css" integrity="sha384-lKuwvrZot6UHsBSfcMvOkWwlCMgc0TaWr+30HWe3a4ltaBwTZhyTEggF5tJv8tbt"
+        crossorigin="anonymous">
+    <link rel="icon" href="{% static 'course/img/favicon.ico' %}" type="image/x-icon" />
+    <script src="https://code.jquery.com/jquery-1.12.0.min.js"></script>
+    <script src="{% static 'course/js/bootstrap.js' %}"></script>
+    <script src="{% static 'course/js/jquery.cookie.js' %}"></script>
+
+    <style type="text/css">
+        html,
+        body {
+            height: 100%;
+        }
+
+        .errorlist {
+			color: red;
+			list-style-type: none;
+			padding: 0;
+			margin: 0;
+			font-size: small;
+		}
+
+		.errorlist+p>textarea,
+		.errorlist+p>input[type=text] {
+			border: 1px solid red;
+		}
+
+
+        .bg {
+            /* The image used */
+            background-image: url("{% static 'course/img/bkg2.png' %}");
+
+            /* Full height */
+            height: 100%;
+
+            /* Center and scale the image nicely */
+            background-position: center;
+            /*background-repeat: no-repeat;*/
+            background-size: cover;
+        }
+
+    </style>
+</head>
+
+<body class="body bg" style="background-color:#eeeeee;">
+    <div class="container-fluid" style="min-height:95%; ">
+        <!-- <div class="container-fluid"> -->
+        {% block content %} {% endblock %}<br>
+        <!-- </div> -->
+    </div>
+
+    <footer>
+        <div class="container-fluid bg-light">
+            <div class="row">
+                <div class="col text-center">
+                    <p style="align-items:center; margin:0%; padding:10px;">
+                        <a class="text-success" href="https://www.wildslug.in" target="blank">Developed by wildSLUG
+                            Productions</a> |
+                        <a href="https://www.holycrosshsschool.com/" target="blank">&copy; Holy Cross HS School </a> |
+                        <a class="text-danger" href="http://www.examfear.com/" target="blank">Content provided by
+                            ExamFear</a>
+                    </p>
+                </div>
+            </div>
+        </div>
+    </footer>
+    {% block individualscript %}{% endblock %}
+
+</body>
+
+</html>

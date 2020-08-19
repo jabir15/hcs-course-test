@@ -1,0 +1,51 @@
+{% if chapters %}
+<div id="chapters">
+    <div class="list-group">
+        {% for chapter in chapters %}
+        <li id="chapter_{{chapter.id}}" class="list-group-item font-weight-bold text-uppercase" data-toggle="collapse"
+            href="#{{chapter.id}}" role="button" aria-expanded="false" aria-controls="{{chapter.id}}">
+            {{forloop.counter}} {{chapter.name}}
+        </li>
+        <div class="collapse list-group" id="{{chapter.id}}" vardata="{{forloop.counter}}_{{chapter.name}}" data-parent="#accordionExample">
+            <div id="topics_for_chapter{{chapter.id}}">
+                {% include 'course/includes/topicsbychapter.html' %}
+            </div>
+        </div>
+
+        {% endfor %}
+    </div>
+</div>
+{% else %}
+<div id="chapters">
+
+</div>
+{% endif %}
+
+{% block individualscript %}
+<script>
+    $(".collapse.list-group").on('shown.bs.collapse', function () {
+        var a = $(this).attr('vardata').split('_');
+        var chapterNumber = a[0];
+        var chapterID = a[1]
+        var chapter = $(this).attr('id');
+        var target_id = '#topics_for_chapter' + chapter;
+        var subjectID = $("#subject_id").val();
+        var classID = $("#class_id").val();
+
+        $.ajax({
+            method: "POST",
+            url: "/topicsbychapter/",
+            data: {
+                'classID': classID,
+                'subjectID': subjectID,
+                'chapterID': chapterID,
+                'chapterNumber': chapterNumber,
+                'csrfmiddlewaretoken': $('input[name=csrfmiddlewaretoken]').val()
+            },
+            success: function (data) {
+                $(target_id).html(data);
+            }
+        });
+    });
+</script>
+{% endblock %}
